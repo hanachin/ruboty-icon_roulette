@@ -2,6 +2,8 @@
 
 ruboty handler for change bot's icon at random.
 
+_Currently it works only with `ruboty-idobata` adapter_
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,6 +19,20 @@ Or install it yourself as:
     $ gem install ruboty-icon_roulette
 
 ## Usage
+
+Set icon directory via ICON_PATHS environment variable.
+
+```
+% tree icons
+icons
+├── kao.jpeg
+└── mihashi.jpg
+% export ICON_PATH='icons/*'
+% echo $ICON_PATH
+icons/*
+```
+
+then change bot's icon by below:
 
 ```
 > ruboty icon roulette!
