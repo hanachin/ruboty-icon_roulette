@@ -1,6 +1,6 @@
 # Ruboty::IconRoulette
 
-TODO: Write a gem description
+ruboty handler for change bot's icon at random.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+> ruboty icon roulette!
+```
 
 ## Contributing
 
